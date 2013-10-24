@@ -2,6 +2,7 @@ inhibit_all_warnings!
 
 def import_pods
   pod 'RestKit', :path => '.'
+  pod 'RestKit/Testing', :path => '.'
   pod 'RestKit/Search', :path => '.'
   
   pod 'Specta', '0.1.9'
